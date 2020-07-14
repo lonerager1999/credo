@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREDO"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:fontFamily="casual"
+        android:id="@+id/tred"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:text="view users"
+        android:paddingTop="@dimen/fab_size_normal"
+        android:paddingEnd="@dimen/fab_size_normal"
+        android:paddingHorizontal="@dimen/fab_size_normal"
+        android:paddingVertical="@dimen/fab_size_normal"
+        android:layout_margin="@dimen/fab_icon_size"
+        android:background="@color/darkgrey"
+        android:fontFamily="casual"
+        android:id="@+id/tred1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/darkgrey"
+        android:layout_below="@+id/tred1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:paddingTop="@dimen/fab_size_normal"
+        android:paddingEnd="@dimen/fab_size_normal"
+        android:paddingHorizontal="@dimen/fab_size_normal"
+        android:paddingVertical="@dimen/fab_size_normal"
+        android:layout_margin="@dimen/fab_icon_size"
+        android:text="transfer details"
+        android:id="@+id/tred2"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userdata">
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/white"
+        android:id="@+id/tred13"
+        />
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    app:fab_labelStyle="@style/customFab">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_icon="@drawable/ic_add_black_24dp"
+        android:id="@+id/tred3"
+        app:fab_colorNormal="@color/white"
+        app:fab_title="add user"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_icon="@drawable/ic_delete_black_24dp"
+        android:id="@+id/tred4"
+        app:fab_colorNormal="@color/white"
+        app:fab_title="delete user"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
